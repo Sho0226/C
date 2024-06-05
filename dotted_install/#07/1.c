@@ -7,7 +7,14 @@ int main(void){
         printf("m: %d\n",m);
         m++;
     }
-    
+
+    int n = 0;
+
+    do {
+        printf("n: %d\n",n);
+        n++; 
+    }while(n < 10);
+   
     return 0;
 
 }
